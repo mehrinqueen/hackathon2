@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #ffffff;
+}
+header{
+  overflow: hidden;
+  background-color: #000000;
+  positon: absolute;
+  height: 15%;
+  width: 100%;
+
+}
+
+.logo{
+  position: absolute;
+  float: left;
+  left: 0%;
+  top: 0%;
+  width: 15%;
+  height: 16%;
+}
+.main-navigation {
+  list-style-type: none;
+  margin-top: -35px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+}
+.main-navigation li {
+  float: left;
+  padding-left: 160px;
+  width: 450px;
+  font-size: 20px;
+}
+#hom{
+  background-color:#4a3241;
+}
+
+.main-navigation li a {
+  display: block;
+  color: white;
+  width: auto;
+  text-align: center;
+  padding: 23px;
+  text-decoration: none;
+  font-family: Georgia,sans-serif;
+}
+
+.main-navigation li a:hover {
+  background-color: #916380;
+
+}
+.chatbox{
+  width: 500px;
+  min-width: 390px;
+  height: 680px;
+  background:#cfbec8;
+  background-image: url('rsz_1bg.jpg');
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 3px #e8b7d4;
+}
+.chatlogs{
+  background-color: #eee;
+  padding: 10px;
+  width: 100%;
+  height: 510px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.chat{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+.chat .user-photo{
+  width: 60px;
+  height: 60px;
+  background: #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.chat .user-photo img{
+  width: 100%;
+}
+.chat .chat-message{
+  width: 75%;
+  padding: 15px;
+  margin: 5px 10px 0;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 18px;
+}
+.friend .chat-message{
+  background: #d9bacd;
+}
+.self .chat-message{
+  background: #d98cb3;
+  order: -1;
+}
+.chat-form{
+  margin-top: 25px;
+  display: flex;
+  align-items: flex-end;
+}
+.chat-form textarea{
+  resize: none;
+  padding: 5px;
+  font-size: 16px;
+}
+#styled{
+  	width: 380px;
+  	height: 100px;
+  	border: 3px solid #cccccc;
+    border-radius: 10px;
+  	padding: 5px;
+    margin-top: 3px;
+  	font-family: Tahoma, sans-serif;
+  	background-image: url(bg.gif);
+  	background-position: bottom right;
+  	background-repeat: no-repeat;
+  }
+  .chat-form button{
+    background-color: 'white';
+    padding: 5px 15px;
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+.button1{
+  background-color: white;
+color: black;
+border: 2px solid #c991b3;
+}
+.button1:hover{
+background-color: #c991b3;
+color: black;
+    }

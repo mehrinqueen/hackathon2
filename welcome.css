@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: tahoma, sans-serif;
+}
+body{
+  background-color: #f2c7e5;
+}
+header{
+  overflow: hidden;
+  background-color: #000000;
+  positon: absolute;
+  height: 15%;
+  width: 100%;
+
+}
+
+.logo{
+  position: absolute;
+  float: left;
+  left: 0%;
+  top: 0%;
+  width: 15%;
+  height: 16%;
+}
+#ban{
+  background-image: linear-gradient(rgba(145, 99, 128, 0.85), rgba(240, 221, 233, 0.50)), url("banner.jpg");
+
+  /* Set a specific height */
+  height: 350px;
+  width: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome{
+  text-align: center;
+  position: absolute;
+  font-family: fantasy;
+  top: 10%;
+  left: 50%;
+  transform: translate( -50%);
+  width: 100%;
+  line-height: 2;
+}
+.main-navigation {
+  list-style-type: none;
+  margin-top: -35px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+}
+.main-navigation li {
+  float: left;
+  padding-left: 160px;
+  width: 300px;
+  font-size: 20px;
+}
+#hom{
+  background-color:#4a3241;
+}
+
+.main-navigation li a {
+  display: block;
+  color: white;
+  width: auto;
+  text-align: center;
+  padding: 23px;
+  text-decoration: none;
+  font-family: Georgia,sans-serif;
+}
+
+.main-navigation li a:hover {
+  background-color: #916380;
+
+}
+span{
+  color: #4a3241;
+}
+p{
+  text-align: center;
+}
